@@ -10,17 +10,17 @@
         };
 
         vm.glyphs = [
-            "ion-ios-americanfootball-outline",
-            "ion-ios-baseball-outline",
-            "ion-ios-basketball-outline",
-            "ion-ios-football-outline"
+            "fa fa-home",
+            "fa fa-calendar",
+            "fa fa-info-circle",
+            "fa fa-users"
         ];
 
         vm.pages = [
-            "homepage",
+            "home",
             "events",
-            "information",
-            "who we are"
+            "info",
+            "whoweare"
         ];
 
         vm.isActive = function(viewLocation) {
