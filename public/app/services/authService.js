@@ -17,7 +17,7 @@
         function brotherLogin(data) {
             return jsend({
                 method: 'POST',
-                url: '/api/brother',
+                url: '/api/home',
                 data: data
             }).then(
                 function(response) {
