@@ -3,6 +3,8 @@
     var module = angular.module('app', [
         'ui.router',
         'ui.bootstrap',
+        'ngCookies',
+        'jsend',
         'app.home',
         'app.events',
         'app.info',
