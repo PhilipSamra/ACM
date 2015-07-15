@@ -1,156 +1,39 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'install' ]
+1 verbose cli   'start',
+1 verbose cli   'USERNAME=Admin',
+1 verbose cli   'PASSWORD=Password' ]
 2 info using npm@2.9.1
 3 info using node@v0.12.3
-4 verbose readDependencies loading dependencies from c:\Users\Philip Samra\projects\CUAACM\acm\package.json
-5 verbose install where, deps [ 'c:\\Users\\Philip Samra\\projects\\CUAACM\\acm',
-5 verbose install   [ 'body-parser',
-5 verbose install     'bower',
-5 verbose install     'cookie-parser',
-5 verbose install     'debug',
-5 verbose install     'express',
-5 verbose install     'jade',
-5 verbose install     'morgan',
-5 verbose install     'serve-favicon',
-5 verbose install     'gulp',
-5 verbose install     'gulp-concat',
-5 verbose install     'gulp-filter',
-5 verbose install     'gulp-less',
-5 verbose install     'gulp-minify-css',
-5 verbose install     'gulp-ng-annotate',
-5 verbose install     'gulp-uglify',
-5 verbose install     'main-bower-files' ] ]
-6 verbose install where, peers [ 'c:\\Users\\Philip Samra\\projects\\CUAACM\\acm', [] ]
-7 verbose installManyTop reading for lifecycle c:\Users\Philip Samra\projects\CUAACM\acm\package.json
-8 info preinstall ACM@0.0.0
-9 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\body-parser\package.json
-10 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\bower\package.json
-11 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\cookie-parser\package.json
-12 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\debug\package.json
-13 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\express\package.json
-14 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp\package.json
-15 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-concat\package.json
-16 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-filter\package.json
-17 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-less\package.json
-18 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-minify-css\package.json
-19 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-ng-annotate\package.json
-20 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-uglify\package.json
-21 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\jade\package.json
-22 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\main-bower-files\package.json
-23 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\morgan\package.json
-24 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\nodemon\package.json
-25 verbose installManyTop reading scoped package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\serve-favicon\package.json
-26 verbose readDependencies loading dependencies from c:\Users\Philip Samra\projects\CUAACM\acm\package.json
-27 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\body-parser\package.json
-28 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\bower\package.json
-29 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\cookie-parser\package.json
-30 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\debug\package.json
-31 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\express\package.json
-32 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp\package.json
-33 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-concat\package.json
-34 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-filter\package.json
-35 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-less\package.json
-36 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-minify-css\package.json
-37 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-ng-annotate\package.json
-38 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\gulp-uglify\package.json
-39 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\jade\package.json
-40 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\main-bower-files\package.json
-41 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\morgan\package.json
-42 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\nodemon\package.json
-43 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\serve-favicon\package.json
-44 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\bower\package.json
-45 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\bower.cmd\package.json
-46 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\gulp\package.json
-47 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\gulp.cmd\package.json
-48 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\jade\package.json
-49 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\jade.cmd\package.json
-50 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\nodemon\package.json
-51 verbose targetResolver reading package data from c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\.bin\nodemon.cmd\package.json
-52 verbose already installed skipping cookie-parser@~1.3.5 c:\Users\Philip Samra\projects\CUAACM\acm
-53 verbose already installed skipping debug@~2.2.0 c:\Users\Philip Samra\projects\CUAACM\acm
-54 verbose already installed skipping express@~4.12.4 c:\Users\Philip Samra\projects\CUAACM\acm
-55 verbose already installed skipping jade@~1.9.2 c:\Users\Philip Samra\projects\CUAACM\acm
-56 verbose already installed skipping morgan@~1.5.3 c:\Users\Philip Samra\projects\CUAACM\acm
-57 verbose already installed skipping serve-favicon@~2.2.1 c:\Users\Philip Samra\projects\CUAACM\acm
-58 verbose already installed skipping gulp@^3.9.0 c:\Users\Philip Samra\projects\CUAACM\acm
-59 verbose already installed skipping gulp-concat@^2.5.2 c:\Users\Philip Samra\projects\CUAACM\acm
-60 verbose already installed skipping gulp-filter@^2.0.2 c:\Users\Philip Samra\projects\CUAACM\acm
-61 verbose already installed skipping gulp-less@^3.0.3 c:\Users\Philip Samra\projects\CUAACM\acm
-62 verbose already installed skipping gulp-minify-css@^1.1.4 c:\Users\Philip Samra\projects\CUAACM\acm
-63 verbose already installed skipping gulp-ng-annotate@^1.0.0 c:\Users\Philip Samra\projects\CUAACM\acm
-64 verbose already installed skipping gulp-uglify@^1.2.0 c:\Users\Philip Samra\projects\CUAACM\acm
-65 verbose already installed skipping main-bower-files@^2.8.0 c:\Users\Philip Samra\projects\CUAACM\acm
-66 verbose already installed skipping body-parser@~1.12.4 c:\Users\Philip Samra\projects\CUAACM\acm
-67 verbose already installed skipping bower@^1.4.1 c:\Users\Philip Samra\projects\CUAACM\acm
-68 silly install resolved []
-69 info build c:\Users\Philip Samra\projects\CUAACM\acm
-70 info linkStuff ACM@0.0.0
-71 silly linkStuff ACM@0.0.0 has c:\Users\Philip Samra\projects\CUAACM as its parent node_modules
-72 verbose linkBins ACM@0.0.0
-73 verbose linkMans ACM@0.0.0
-74 verbose rebuildBundles ACM@0.0.0
-75 verbose rebuildBundles [ '.bin',
-75 verbose rebuildBundles   'body-parser',
-75 verbose rebuildBundles   'bower',
-75 verbose rebuildBundles   'cookie-parser',
-75 verbose rebuildBundles   'debug',
-75 verbose rebuildBundles   'express',
-75 verbose rebuildBundles   'gulp',
-75 verbose rebuildBundles   'gulp-concat',
-75 verbose rebuildBundles   'gulp-filter',
-75 verbose rebuildBundles   'gulp-less',
-75 verbose rebuildBundles   'gulp-minify-css',
-75 verbose rebuildBundles   'gulp-ng-annotate',
-75 verbose rebuildBundles   'gulp-uglify',
-75 verbose rebuildBundles   'jade',
-75 verbose rebuildBundles   'main-bower-files',
-75 verbose rebuildBundles   'morgan',
-75 verbose rebuildBundles   'nodemon',
-75 verbose rebuildBundles   'serve-favicon' ]
-76 verbose rebuild bundle c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\nodemon
-77 info build c:\Users\Philip Samra\projects\CUAACM\acm\node_modules\nodemon
-78 info preinstall nodemon@1.3.7
-79 info linkStuff nodemon@1.3.7
-80 silly linkStuff nodemon@1.3.7 has c:\Users\Philip Samra\projects\CUAACM\acm\node_modules as its parent node_modules
-81 warn prefer global nodemon@1.3.7 should be installed with -g
-82 verbose linkBins nodemon@1.3.7
-83 verbose link bins [ { nodemon: './bin/nodemon.js' },
-83 verbose link bins   'c:\\Users\\Philip Samra\\projects\\CUAACM\\acm\\node_modules\\.bin',
-83 verbose link bins   false ]
-84 verbose linkMans nodemon@1.3.7
-85 verbose rebuildBundles nodemon@1.3.7
-86 verbose rebuildBundles [ 'minimatch', 'ps-tree', 'touch', 'update-notifier' ]
-87 info install nodemon@1.3.7
-88 info postinstall nodemon@1.3.7
-89 info install ACM@0.0.0
-90 info postinstall ACM@0.0.0
-91 verbose unsafe-perm in lifecycle true
-92 info ACM@0.0.0 Failed to exec postinstall script
-93 verbose stack Error: ACM@0.0.0 postinstall: `./node_modules/bower/bin/bower install && gulp`
-93 verbose stack Exit status 1
-93 verbose stack     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
-93 verbose stack     at EventEmitter.emit (events.js:110:17)
-93 verbose stack     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
-93 verbose stack     at ChildProcess.emit (events.js:110:17)
-93 verbose stack     at maybeClose (child_process.js:1015:16)
-93 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
-94 verbose pkgid ACM@0.0.0
-95 verbose cwd c:\Users\Philip Samra\projects\CUAACM\acm
-96 error Windows_NT 6.3.9600
-97 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
-98 error node v0.12.3
-99 error npm  v2.9.1
-100 error code ELIFECYCLE
-101 error ACM@0.0.0 postinstall: `./node_modules/bower/bin/bower install && gulp`
-101 error Exit status 1
-102 error Failed at the ACM@0.0.0 postinstall script './node_modules/bower/bin/bower install && gulp'.
-102 error This is most likely a problem with the ACM package,
-102 error not with npm itself.
-102 error Tell the author that this fails on your system:
-102 error     ./node_modules/bower/bin/bower install && gulp
-102 error You can get their info via:
-102 error     npm owner ls ACM
-102 error There is likely additional logging output above.
-103 verbose exit [ 1, true ]
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart ACM@0.0.0
+6 info start ACM@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info ACM@0.0.0 Failed to exec start script
+9 verbose stack Error: ACM@0.0.0 start: `node ./bin/www "USERNAME=Admin" "PASSWORD=Password"`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+9 verbose stack     at EventEmitter.emit (events.js:110:17)
+9 verbose stack     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+10 verbose pkgid ACM@0.0.0
+11 verbose cwd c:\Users\Philip Samra\projects\cuaacm\acm
+12 error Windows_NT 6.3.9600
+13 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start" "USERNAME=Admin" "PASSWORD=Password"
+14 error node v0.12.3
+15 error npm  v2.9.1
+16 error code ELIFECYCLE
+17 error ACM@0.0.0 start: `node ./bin/www "USERNAME=Admin" "PASSWORD=Password"`
+17 error Exit status 1
+18 error Failed at the ACM@0.0.0 start script 'node ./bin/www "USERNAME=Admin" "PASSWORD=Password"'.
+18 error This is most likely a problem with the ACM package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     node ./bin/www "USERNAME=Admin" "PASSWORD=Password"
+18 error You can get their info via:
+18 error     npm owner ls ACM
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

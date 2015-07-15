@@ -1,19 +1,27 @@
 (function(module) {
 
-    function WhoweareCtrl($scope) {
-        var vm = this;
+    function WhoweareCtrl($scope, apiService, $modal, $cookies) {
+       var vm = this;
+        vm.whoweare = null;
+        vm.images = null;
 
-        vm.officers = [
-        	"President: Peter Kuebler",
-        	"Vice President: Philip Samra",
-        	"Secretary: Brianna Navero"
-        ];
-        vm.faculty = [
-			"Dr. Lin-Ching Chang",
-            "Dr. Esam El-Araby"
-        ]
-       
+        getWhoweare();
+        getImages();
+
+        function getWhoweare() {
+            apiService.whoweareData().then(function (results) {
+                vm.whoweare = results;
+            });
+        }
+
+        function getImages() {
+            apiService.whoweareImages().then(function (results) {
+                vm.images = results;
+            });
+        }
+
     }
+
 
     module.controller('WhoweareCtrl', WhoweareCtrl);
 })(angular.module('app.whoweare'));

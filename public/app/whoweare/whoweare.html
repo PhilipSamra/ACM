@@ -3,43 +3,9 @@
         <h1 style="position:relative;top:50%;transform:translate(0, -50%)">This is Who we are.</h1>
     </div>
     <div class="people">
-        <div class="col-xs-12 col-sm-6 col-md-4" <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Student Officers</h3>
-            </div>
-            <div class="panel-body">
-                <ul class="list-group" ng-repeat="c in vm.officers">
-                    <li class="list-group-item">{{c}}
-                    </li>
-                </ul>
-            </div>
+        <div class="col-xs-12 col-sm-6 col-md-4" class="panel panel-primary" id="People" ng-repeat="e in vm.whoweare">
+            <h3>{{e.Position}}</h3>
+            <p>{{e.Name}}</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" <div class="panel panel-primary">
-            <div class="panel-heading">
-                <div>
-                	<h3 class="panel-title" style>Faculty Advisors</h3>
-                </div>
-            </div>
-            <div class="panel-body">
-                <ul class="list-group" ng-repeat="d in vm.faculty">
-                    <li class="list-group-item">{{d}}
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- <table border="1" style="width:100%">
-            <tr>
-                <th>Student Officers</th>
-            </tr>
-            <tr>President: Peter Kuebler</tr>
-            <tr>Vice President: Philip Samra</tr>
-            <tr>Secretary: Brianna Navero</tr>
-        </table>
-        <table border="1" style="width:100%">
-            <th>Faculty Advisors</th>
-            <tr>Dr. Lin-Ching Chang</tr>
-            <tr>Dr. Esam El-Araby</tr>
-            <tr>Dr. Saiid Ganjalizadeh</tr>
-        </table> -->
     </div>
 </div>

@@ -14,7 +14,7 @@
             );
         }
 
-        function brotherLogin(data) {
+        function Login(data) {
             return jsend({
                 method: 'POST',
                 url: '/api/home',
@@ -28,7 +28,7 @@
 
         return {
             adminLogin: adminLogin,
-            brotherLogin: brotherLogin
+            Login: Login
         };
     }
 

@@ -2,7 +2,11 @@
     <div style="background-color:black;height:150px;text-align:center;border-radius:5px;margin-bottom:20px;">
         <h1 style="position:relative;top:50%;transform:translate(0, -50%)">This is the events page.</h1>
     </div>
-    <div class="embed-responsive embed-responsive-16by9 col-md-8 col-md-offset-2">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VFh5ArG46_M" allowfullscreen></iframe>
+       <div ng-controller="EventsCtrl as vm">
+        <div ng-repeat="e in vm.events"class="panel">
+            <h3>{{e.eventTitle}}</h3>
+            <p>{{e.Info.Location}}</p>
+            <p>{{e.Info.Details}}</p>
+        </div>
     </div>
 </div>
