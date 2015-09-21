@@ -67,6 +67,14 @@
                 }
             );
         }
+
+        function editWhoweare(data) {
+            return jsend({
+                method: 'PUT',
+                url: '/api/whoweare-Data',
+                data: data
+            });
+        }
         return {
             eventsData: eventsData,
             addEvent: addEvent,
@@ -74,7 +82,8 @@
             deleteEvent: deleteEvent,
             eventsImages: eventsImages,
             whoweareData:whoweareData,
-            whoweareImages:whoweareImages
+            whoweareImages:whoweareImages,
+            editWhoweare: editWhoweare
         };
     }
 

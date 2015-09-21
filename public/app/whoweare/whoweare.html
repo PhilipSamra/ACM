@@ -4,6 +4,7 @@
     </div>
     <div class="people">
         <div class="col-xs-12 col-sm-6 col-md-4" class="panel panel-primary" id="People" ng-repeat="e in vm.whoweare">
+         <button ng-show="vm.loggedIn" class="btn btn-xs btn-primary pull-right" ng-click="vm.editWhoweare(vm.whoweare[0], 0)"><i class="glyphicon glyphicon-edit"></i></button>
             <h3>{{e.Position}}</h3>
             <p>{{e.Name}}</p>
         </div>

@@ -2,11 +2,21 @@
     <div style="background-color:black;height:150px;text-align:center;border-radius:5px;margin-bottom:20px;">
         <h1 style="position:relative;top:50%;transform:translate(0, -50%)">This is the events page.</h1>
     </div>
-       <div ng-controller="EventsCtrl as vm">
-        <div ng-repeat="e in vm.events"class="panel">
-            <h3>{{e.eventTitle}}</h3>
-            <p>{{e.Info.Location}}</p>
-            <p>{{e.Info.Details}}</p>
+    <div ng-controller="EventsCtrl as vm">
+        <div class="col-sm-8">
+            <button ng-show="vm.loggedIn" class="btn btn-primary btn-edit" ng-click="vm.addEvent()"><i class="glyphicon glyphicon-plus-sign"></i> Event</button>
+            <div class="row well" ng-repeat="e in vm.events">
+                <button ng-show="vm.loggedIn" class="btn btn-xs btn-danger pull-right" ng-click="vm.deleteEvent($index)"><i class="glyphicon glyphicon-remove"></i></button>
+                <button ng-show="vm.loggedIn" class="btn btn-xs btn-primary pull-right" ng-click="vm.editEvent(e, $index)"><i class="glyphicon glyphicon-edit"></i></button>
+                <div class="col-sm-5">
+                    <img class="news-img" ng-src="{{e.img}}" alt="image">
+                </div>
+                <div class="col-sm-7">
+                    <h3>{{e.eventTitle}}</h3>
+                    <p>{{e.Info.Location}}</p>
+                    <p>{{e.Info.Details}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
